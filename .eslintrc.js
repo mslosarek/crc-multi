@@ -31,5 +31,6 @@ module.exports = {
     'no-extend-native': ['error', { exceptions: ['BigInt'] }],
     'no-bitwise': [0],
     'no-multiple-empty-lines': ['error', { max: 1 }],
+    'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
   },
 };

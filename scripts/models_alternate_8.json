@@ -1,0 +1,102 @@
+[
+  {
+    "width": 8,
+    "name": "CRC-8",
+    "check": "0xF4",
+    "poly": "0x07",
+    "init": "0x00",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/CDMA2000",
+    "check": "0xDA",
+    "poly": "0x9B",
+    "init": "0xFF",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/DARC",
+    "check": "0x15",
+    "poly": "0x39",
+    "init": "0x00",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/DVB-S2",
+    "check": "0xBC",
+    "poly": "0xD5",
+    "init": "0x00",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/EBU",
+    "check": "0x97",
+    "poly": "0x1D",
+    "init": "0xFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/I-CODE",
+    "check": "0x7E",
+    "poly": "0x1D",
+    "init": "0xFD",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/ITU",
+    "check": "0xA1",
+    "poly": "0x07",
+    "init": "0x00",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x55"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/MAXIM",
+    "check": "0xA1",
+    "poly": "0x31",
+    "init": "0x00",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/ROHC",
+    "check": "0xD0",
+    "poly": "0x07",
+    "init": "0xFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x00"
+  },
+  {
+    "width": 8,
+    "name": "CRC-8/WCDMA",
+    "check": "0x25",
+    "poly": "0x9B",
+    "init": "0x00",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x00"
+  }
+]

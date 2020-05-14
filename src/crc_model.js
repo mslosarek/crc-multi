@@ -18,13 +18,11 @@ const modelDefinitions = modelDefinitionsRaw.map(def => {
   return modelDefinition;
 });
 
-function GetModel(name, size = null) {
-  let nameToSearch = name;
-  if (size && !name.startsWith('CRC-')) {
-    nameToSearch = `CRC-${size}/${name}`;
-  }
-
-  const modelDefinition = modelDefinitions.find(md => md.name === nameToSearch);
+function GetModel(name, width = null) {
+  const modelDefinition = modelDefinitions.find(md => (
+    md.names.includes(name)
+    || (width && md.width === width && md.names.find(n => n.endsWith(name)))
+  ));
   if (!modelDefinition) {
     throw new Error('Unknown Model Definition');
   }

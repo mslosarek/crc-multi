@@ -1,0 +1,92 @@
+[
+  {
+    "width": 32,
+    "name": "CRC-32",
+    "check": "0xCBF43926",
+    "poly": "0x04C11DB7",
+    "init": "0xFFFFFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFFFFFF"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32/BZIP2",
+    "check": "0xFC891918",
+    "poly": "0x04C11DB7",
+    "init": "0xFFFFFFFF",
+    "refin": false,
+    "refout": false,
+    "xorout": "0xFFFFFFFF"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32C",
+    "check": "0xE3069283",
+    "poly": "0x1EDC6F41",
+    "init": "0xFFFFFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFFFFFF"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32D",
+    "check": "0x87315576",
+    "poly": "0xA833982B",
+    "init": "0xFFFFFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFFFFFF"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32/MPEG-2",
+    "check": "0x0376E6E7",
+    "poly": "0x04C11DB7",
+    "init": "0xFFFFFFFF",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00000000"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32/POSIX",
+    "check": "0x765E7680",
+    "poly": "0x04C11DB7",
+    "init": "0x00000000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0xFFFFFFFF"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32Q",
+    "check": "0x3010BF7F",
+    "poly": "0x814141AB",
+    "init": "0x00000000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00000000"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32/JAMCRC",
+    "check": "0x340BC6D9",
+    "poly": "0x04C11DB7",
+    "init": "0xFFFFFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x00000000"
+  },
+  {
+    "width": 32,
+    "name": "CRC-32/XFER",
+    "check": "0xBD0BE338",
+    "poly": "0x000000AF",
+    "init": "0x00000000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x00000000"
+  }
+]

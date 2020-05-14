@@ -1,0 +1,232 @@
+[
+  {
+    "width": 16,
+    "name": "CRC-16/CCITT-FALSE",
+    "check": "0x29B1",
+    "poly": "0x1021",
+    "init": "0xFFFF",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/ARC",
+    "check": "0xBB3D",
+    "poly": "0x8005",
+    "init": "0x0000",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/AUG-CCITT",
+    "check": "0xE5CC",
+    "poly": "0x1021",
+    "init": "0x1D0F",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/BUYPASS",
+    "check": "0xFEE8",
+    "poly": "0x8005",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/CDMA2000",
+    "check": "0x4C06",
+    "poly": "0xC867",
+    "init": "0xFFFF",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/DDS-110",
+    "check": "0x9ECF",
+    "poly": "0x8005",
+    "init": "0x800D",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/DECT-R",
+    "check": "0x007E",
+    "poly": "0x0589",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0001"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/DECT-X",
+    "check": "0x007F",
+    "poly": "0x0589",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/DNP",
+    "check": "0xEA82",
+    "poly": "0x3D65",
+    "init": "0x0000",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFF"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/EN-13757",
+    "check": "0xC2B7",
+    "poly": "0x3D65",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0xFFFF"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/GENIBUS",
+    "check": "0xD64E",
+    "poly": "0x1021",
+    "init": "0xFFFF",
+    "refin": false,
+    "refout": false,
+    "xorout": "0xFFFF"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/MAXIM",
+    "check": "0x44C2",
+    "poly": "0x8005",
+    "init": "0x0000",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFF"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/MCRF4XX",
+    "check": "0x6F91",
+    "poly": "0x1021",
+    "init": "0xFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/RIELLO",
+    "check": "0x63D0",
+    "poly": "0x1021",
+    "init": "0xB2AA",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/T10-DIF",
+    "check": "0xD0DB",
+    "poly": "0x8BB7",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/TELEDISK",
+    "check": "0x0FB3",
+    "poly": "0xA097",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/TMS37157",
+    "check": "0x26B1",
+    "poly": "0x1021",
+    "init": "0x89EC",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/USB",
+    "check": "0xB4C8",
+    "poly": "0x8005",
+    "init": "0xFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFF"
+  },
+  {
+    "width": 16,
+    "name": "CRC-A",
+    "check": "0xBF05",
+    "poly": "0x1021",
+    "init": "0xC6C6",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/KERMIT",
+    "check": "0x2189",
+    "poly": "0x1021",
+    "init": "0x0000",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/MODBUS",
+    "check": "0x4B37",
+    "poly": "0x8005",
+    "init": "0xFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0x0000"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/X-25",
+    "check": "0x906E",
+    "poly": "0x1021",
+    "init": "0xFFFF",
+    "refin": true,
+    "refout": true,
+    "xorout": "0xFFFF"
+  },
+  {
+    "width": 16,
+    "name": "CRC-16/XMODEM",
+    "check": "0x31C3",
+    "poly": "0x1021",
+    "init": "0x0000",
+    "refin": false,
+    "refout": false,
+    "xorout": "0x0000"
+  }
+]
