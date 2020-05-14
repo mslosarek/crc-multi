@@ -1,0 +1,40 @@
+{
+  "name": "crc-multi",
+  "version": "0.1.0",
+  "description": "CRC In Javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/*.js scripts/*.js",
+    "test": "mocha",
+    "nyc": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mslosarek/crc-multi.git"
+  },
+  "keywords": [
+    "CRC"
+  ],
+  "author": "Mark Slosarek <mark@slosarek.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mslosarek/crc-multi/issues"
+  },
+  "homepage": "https://github.com/mslosarek/crc-multi#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  },
+  "dependencies": {},
+  "files": [
+    "src/*",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
