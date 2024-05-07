@@ -2,6 +2,7 @@ module.exports = {
   env: {
     es6: true,
     node: true,
+    mocha: true,
   },
   extends: [
     'airbnb-base',
@@ -31,6 +32,6 @@ module.exports = {
     'no-extend-native': ['error', { exceptions: ['BigInt'] }],
     'no-bitwise': [0],
     'no-multiple-empty-lines': ['error', { max: 1 }],
-    'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 };

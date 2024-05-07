@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const sunshineModels = require('./sunshineModels.js');
+const sunshineModels = require('./sunshineModels');
 
 const convertValue = (value, name) => {
   try {

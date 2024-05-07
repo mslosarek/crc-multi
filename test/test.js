@@ -1,14 +1,17 @@
+/* eslint func-names: ["error", "never"] */
+/* eslint prefer-arrow-callback: 0 */
+
 const chai = require('chai');
 
-const expect = chai.expect;
+const { expect } = chai;
 
 const { CRCModel, CRC } = require('../src');
 
-const modelDefinitions = CRCModel.modelDefinitions;
+const { modelDefinitions } = CRCModel;
 
 describe('CRC', function() {
   describe('#compute', function() {
-    it ('calculates the proper checksum', function() {
+    it('calculates the proper checksum', function() {
       const bytes = Buffer.from('123456789');
 
       modelDefinitions.forEach(model => {
@@ -44,8 +47,8 @@ describe('CRCModel', function() {
       it('throws an error', function() {
         const invalidName = 'CRC-8/NotValid';
         expect(() => {
-           CRCModel.GetModel(invalidName)
-         }).to.throw('Unknown Model Definition');
+          CRCModel.GetModel(invalidName);
+        }).to.throw('Unknown Model Definition');
       });
     });
   });
